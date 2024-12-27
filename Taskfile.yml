@@ -1,0 +1,11 @@
+version: '3'
+
+# go install github.com/go-task/task/v3/cmd/task@latest
+# task bechmark
+
+tasks:
+  bechmark:
+    cmds:
+      - clear
+      - docker compose restart
+      - go run main.go
